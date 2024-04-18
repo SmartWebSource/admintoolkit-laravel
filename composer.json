@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Smartwebsource\\Admintoolkit\\": "src/"
+            "Smartwebsource\\Admintoolkit\\": "src"
         }
     },
     "extra": {
