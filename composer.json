@@ -15,5 +15,12 @@
             "Smartwebsource\\Admintoolkit\\": "packages/smartwebsource/admintoolkit-laravel/src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smartwebsource\\Admintoolkit\\AdminToolkitServiceProvider"
+            ]
+        }
+    }
 }
