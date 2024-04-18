@@ -28,7 +28,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Smartwebsource\\Admintoolkit\\": "packages/smartwebsource/admintoolkit/src/"
+            "Smartwebsource\\Admintoolkit\\": "packages/smartwebsource/admintoolkit-laravel/src/"
         }
     },
     "scripts": {

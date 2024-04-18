@@ -1,5 +1,5 @@
 {
-    "name": "smartwebsource/admintoolkit",
+    "name": "smartwebsource/admintoolkit-laravel",
     "description": "Admin toolkit template laravel version",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Smartwebsource\\Admintoolkit\\": "packages/smartwebsource/admintoolkit/src/"
+            "Smartwebsource\\Admintoolkit\\": "packages/smartwebsource/admintoolkit-laravel/src/"
         }
     },
     "require": {}
