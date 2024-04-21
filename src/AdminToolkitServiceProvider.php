@@ -3,11 +3,12 @@
 namespace Smartwebsource\Admintoolkit;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\File;
 
 class AdminToolkitServiceProvider extends ServiceProvider
 {
      public function boot(){
-        // $path = base_path();
+        $path = base_path();
 
         // $package_destination = $path . '/package.json';
         // $package_source = __DIR__.'/resources/js-config/package.json';
@@ -18,6 +19,11 @@ class AdminToolkitServiceProvider extends ServiceProvider
 
         // $tailwind_config_destination = $path . '/tailwind.config.js';
         // $tailwind_config_source = __DIR__.'/resources/js-config/tailwind.config.js';
+
+        $image_destination = public_path();
+        $image_source = __DIR__.'/public/images';
+
+        File::copyDirectory($image_source, $image_destination);
 
         // if (file_exists($package_source)) {
         //     copy($package_source, $package_destination);

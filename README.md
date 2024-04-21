@@ -125,12 +125,10 @@ export default defineConfig({
 
 ```
 
-Install all js package and build assets
+Install all js package
 
 ```bash
 npm insalll
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
 ```
 
 update your `tailwind.config.js` file according to bellow code
@@ -247,10 +245,11 @@ export default {
 
 ```
 
-
-Build assests
+Install all js package and build assets
 
 ```bash
+npm insalll
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 npm run build
 ```
-
