@@ -128,7 +128,7 @@ export default defineConfig({
 Install all js package
 
 ```bash
-npm insalll
+npm install
 ```
 
 update your `tailwind.config.js` file according to bellow code
