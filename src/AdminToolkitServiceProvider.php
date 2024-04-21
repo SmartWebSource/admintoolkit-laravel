@@ -20,7 +20,7 @@ class AdminToolkitServiceProvider extends ServiceProvider
         // $tailwind_config_destination = $path . '/tailwind.config.js';
         // $tailwind_config_source = __DIR__.'/resources/js-config/tailwind.config.js';
 
-        $image_destination = public_path();
+        $image_destination = public_path().'/images';
         $image_source = __DIR__.'/public/images';
 
         File::copyDirectory($image_source, $image_destination);
