@@ -20,11 +20,16 @@ Add package name and github link in `composer.json`
     ],
 ```
 
+Open project termianl and run this command
+
+```bash
+   composer update
+```
 
 publish assests 
 
 ```bash
-php artisan vendor:publish --provider="Smartwebsource\Admintoolkit\AdminToolkitServiceProvider"
+php artisan vendor:publish --provider="Smartwebsource\Admintoolkit\AdminToolkitServiceProvider" --force
 ```
 
 update your `package.json` file according to bellow code
@@ -118,6 +123,14 @@ export default defineConfig({
   ],
 });
 
+```
+
+Install all js package and build assets
+
+```bash
+npm insalll
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
 update your `tailwind.config.js` file according to bellow code
@@ -235,10 +248,9 @@ export default {
 ```
 
 
-Install all js package and build assets
+Build assests
 
 ```bash
-npm insalll
 npm run build
 ```
 
