@@ -248,7 +248,7 @@ export default {
 Install all js package and build assets
 
 ```bash
-npm insalll
+npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm run build
