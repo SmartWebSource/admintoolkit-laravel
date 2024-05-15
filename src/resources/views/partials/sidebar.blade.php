@@ -33,10 +33,10 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('/')}}" class="sidebar-submenu-item {{request()->is('/')?'active':''}}">Analytics</a>
+                    <a href="{{url('admintoolkit')}}" class="sidebar-submenu-item {{request()->is('/')?'active':''}}">Analytics</a>
                 </li>
                 <li>
-                    <a href="{{url('ecommerce')}}" class="sidebar-submenu-item {{request()->is('ecommerce')?'active':''}}">Ecommerce</a>
+                    <a href="{{url('admintoolkit/ecommerce')}}" class="sidebar-submenu-item {{request()->is('ecommerce')?'active':''}}">Ecommerce</a>
                 </li>
             </ul>
         </li>
@@ -45,7 +45,7 @@
 
         <!-- Email -->
         <li>
-            <a href="{{url('email')}}" class="sidebar-menu {{request()->is('email')?'active':''}}">
+            <a href="{{url('admintoolkit/email')}}" class="sidebar-menu {{request()->is('email')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="mail"></i>
                 </span>
@@ -54,7 +54,7 @@
         </li>
         <!-- Chat -->
         <li>
-            <a href="{{url('chat')}}" class="sidebar-menu {{request()->is('chat')?'active':''}}">
+            <a href="{{url('admintoolkit/chat')}}" class="sidebar-menu {{request()->is('chat')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="message-square"></i>
                 </span>
@@ -63,7 +63,7 @@
         </li>
         <!-- Calendar -->
         <li>
-            <a href="{{url('calendar')}}" class="sidebar-menu {{request()->is('calendar')?'active':''}}">
+            <a href="{{url('admintoolkit/calendar')}}" class="sidebar-menu {{request()->is('calendar')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="calendar"></i>
                 </span>
@@ -83,11 +83,11 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('invoice-create')}}" class="sidebar-submenu-item {{request()->is('invoice-create')?'active':''}}"> Create </a>
+                    <a href="{{url('admintoolkit/invoice-create')}}" class="sidebar-submenu-item {{request()->is('invoice-create')?'active':''}}"> Create </a>
                 </li>
 
                 <li>
-                    <a href="{{url('invoice-details')}}" class="sidebar-submenu-item {{request()->is('invoice-details')?'active':''}}"> Details </a>
+                    <a href="{{url('admintoolkit/invoice-details')}}" class="sidebar-submenu-item {{request()->is('invoice-details')?'active':''}}"> Details </a>
                 </li>
             </ul>
         </li>
@@ -104,20 +104,20 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('product-list')}}" class="sidebar-submenu-item {{request()->is('product-list')?'active':''}}"> Product List </a>
+                    <a href="{{url('admintoolkit/product-list')}}" class="sidebar-submenu-item {{request()->is('product-list')?'active':''}}"> Product List </a>
                 </li>
 
                 <li>
-                    <a href="{{url('product-edit')}}" class="sidebar-submenu-item {{request()->is('product-edit')?'active':''}}"> Product Edit </a>
+                    <a href="{{url('admintoolkit/product-edit')}}" class="sidebar-submenu-item {{request()->is('product-edit')?'active':''}}"> Product Edit </a>
                 </li>
                 <li>
-                    <a href="{{url('order-list')}}" class="sidebar-submenu-item {{request()->is('order-list')?'active':''}}"> Order List </a>
+                    <a href="{{url('admintoolkit/order-list')}}" class="sidebar-submenu-item {{request()->is('order-list')?'active':''}}"> Order List </a>
                 </li>
                 <li>
-                    <a href="{{url('order-details')}}" class="sidebar-submenu-item {{request()->is('order-details')?'active':''}}"> Order Details </a>
+                    <a href="{{url('admintoolkit/order-details')}}" class="sidebar-submenu-item {{request()->is('order-details')?'active':''}}"> Order Details </a>
                 </li>
                 <li>
-                    <a href="{{url('customer-list')}}" class="sidebar-submenu-item {{request()->is('customer-list')?'active':''}}"> Customer List </a>
+                    <a href="{{url('admintoolkit/customer-list')}}" class="sidebar-submenu-item {{request()->is('customer-list')?'active':''}}"> Customer List </a>
                 </li>
             </ul>
         </li>
@@ -134,10 +134,10 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('user-list')}}" class="sidebar-submenu-item {{request()->is('user-list')?'active':''}}">List</a>
+                    <a href="{{url('admintoolkit/user-list')}}" class="sidebar-submenu-item {{request()->is('user-list')?'active':''}}">List</a>
                 </li>
                 <li>
-                    <a href="{{url('user-profile')}}" class="sidebar-submenu-item {{request()->is('user-profile')?'active':''}}"> Profile </a>
+                    <a href="{{url('admintoolkit/user-profile')}}" class="sidebar-submenu-item {{request()->is('user-profile')?'active':''}}"> Profile </a>
                 </li>
             </ul>
         </li>
@@ -156,60 +156,60 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('accordion')}}" class="sidebar-submenu-item {{request()->is('accordion')?'active':''}}"> Accordion </a>
+                    <a href="{{url('admintoolkit/accordion')}}" class="sidebar-submenu-item {{request()->is('accordion')?'active':''}}"> Accordion </a>
                 </li>
                 <li>
-                    <a href="{{url('alert')}}" class="sidebar-submenu-item {{request()->is('alert')?'active':''}}">Alert</a>
+                    <a href="{{url('admintoolkit/alert')}}" class="sidebar-submenu-item {{request()->is('alert')?'active':''}}">Alert</a>
                 </li>
                 <li>
-                    <a href="{{url('avater')}}" class="sidebar-submenu-item {{request()->is('avater')?'active':''}}">Avatar</a>
+                    <a href="{{url('admintoolkit/avater')}}" class="sidebar-submenu-item {{request()->is('avater')?'active':''}}">Avatar</a>
                 </li>
                 <li>
-                    <a href="{{url('badge')}}" class="sidebar-submenu-item" {{request()->is('badge')?'active':''}}>Badge</a>
+                    <a href="{{url('admintoolkit/badge')}}" class="sidebar-submenu-item" {{request()->is('badge')?'active':''}}>Badge</a>
                 </li>
                 <li>
-                    <a href="{{url('button')}}" class="sidebar-submenu-item {{request()->is('button')?'active':''}}">Button</a>
+                    <a href="{{url('admintoolkit/button')}}" class="sidebar-submenu-item {{request()->is('button')?'active':''}}">Button</a>
                 </li>
                 <li>
-                    <a href="{{url('card')}}" class="sidebar-submenu-item {{request()->is('card')?'active':''}}">Card</a>
+                    <a href="{{url('admintoolkit/card')}}" class="sidebar-submenu-item {{request()->is('card')?'active':''}}">Card</a>
                 </li>
                 <li>
-                    <a href="{{url('carousel')}}" class="sidebar-submenu-item {{request()->is('carousel')?'active':''}}"> Carousel </a>
-                </li>
-
-                <li>
-                    <a href="{{url('drawer')}}" class="sidebar-submenu-item {{request()->is('drawer')?'active':''}}">Drawer</a>
-                </li>
-                <li>
-                    <a href="{{url('dropdown')}}" class="sidebar-submenu-item {{request()->is('dropdown')?'active':''}}"> Dropdown </a>
-                </li>
-                <li>
-                    <a href="{{url('list-group')}}" class="sidebar-submenu-item {{request()->is('list-group')?'active':''}}"> List Group </a>
-                </li>
-                <li>
-                    <a href="{{url('modal')}}" class="sidebar-submenu-item {{request()->is('modal')?'active':''}}">Modal</a>
-                </li>
-                <li>
-                    <a href="{{url('pagination')}}" class="sidebar-submenu-item {{request()->is('pagination')?'active':''}}"> Pagination </a>
-                </li>
-                <li>
-                    <a href="{{url('progress')}}" class="sidebar-submenu-item {{request()->is('progress')?'active':''}}"> Progress </a>
+                    <a href="{{url('admintoolkit/carousel')}}" class="sidebar-submenu-item {{request()->is('carousel')?'active':''}}"> Carousel </a>
                 </li>
 
                 <li>
-                    <a href="{{url('skeleton')}}" class="sidebar-submenu-item {{request()->is('skeleton')?'active':''}}"> Skeleton </a>
+                    <a href="{{url('admintoolkit/drawer')}}" class="sidebar-submenu-item {{request()->is('drawer')?'active':''}}">Drawer</a>
                 </li>
                 <li>
-                    <a href="{{url('spinner')}}" class="sidebar-submenu-item {{request()->is('spinner')?'active':''}}"> Spinner </a>
+                    <a href="{{url('admintoolkit/dropdown')}}" class="sidebar-submenu-item {{request()->is('dropdown')?'active':''}}"> Dropdown </a>
                 </li>
                 <li>
-                    <a href="{{url('tab')}}" class="sidebar-submenu-item {{request()->is('tab')?'active':''}}">Tab</a>
+                    <a href="{{url('admintoolkit/list-group')}}" class="sidebar-submenu-item {{request()->is('list-group')?'active':''}}"> List Group </a>
                 </li>
                 <li>
-                    <a href="{{url('toast')}}" class="sidebar-submenu-item {{request()->is('toast')?'active':''}}">Toast</a>
+                    <a href="{{url('admintoolkit/modal')}}" class="sidebar-submenu-item {{request()->is('modal')?'active':''}}">Modal</a>
                 </li>
                 <li>
-                    <a href="{{url('tooltip')}}" class="sidebar-submenu-item" {{request()->is('login')?'tooltip':''}}> Tooltip </a>
+                    <a href="{{url('admintoolkit/pagination')}}" class="sidebar-submenu-item {{request()->is('pagination')?'active':''}}"> Pagination </a>
+                </li>
+                <li>
+                    <a href="{{url('admintoolkit/progress')}}" class="sidebar-submenu-item {{request()->is('progress')?'active':''}}"> Progress </a>
+                </li>
+
+                <li>
+                    <a href="{{url('admintoolkit/skeleton')}}" class="sidebar-submenu-item {{request()->is('skeleton')?'active':''}}"> Skeleton </a>
+                </li>
+                <li>
+                    <a href="{{url('admintoolkit/spinner')}}" class="sidebar-submenu-item {{request()->is('spinner')?'active':''}}"> Spinner </a>
+                </li>
+                <li>
+                    <a href="{{url('admintoolkit/tab')}}" class="sidebar-submenu-item {{request()->is('tab')?'active':''}}">Tab</a>
+                </li>
+                <li>
+                    <a href="{{url('admintoolkit/toast')}}" class="sidebar-submenu-item {{request()->is('toast')?'active':''}}">Toast</a>
+                </li>
+                <li>
+                    <a href="{{url('admintoolkit/tooltip')}}" class="sidebar-submenu-item" {{request()->is('login')?'tooltip':''}}> Tooltip </a>
                 </li>
             </ul>
         </li>
@@ -226,41 +226,41 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('input')}}" class="sidebar-submenu-item {{request()->is('input')?'active':''}}">Input</a>
+                    <a href="{{url('admintoolkit/input')}}" class="sidebar-submenu-item {{request()->is('input')?'active':''}}">Input</a>
                 </li>
                 <li>
-                    <a href="{{url('input-group')}}" class="sidebar-submenu-item {{request()->is('input-group')?'active':''}}"> Input Group </a>
+                    <a href="{{url('admintoolkit/input-group')}}" class="sidebar-submenu-item {{request()->is('input-group')?'active':''}}"> Input Group </a>
                 </li>
                 <li>
-                    <a href="{{url('textarea')}}" class="sidebar-submenu-item {{request()->is('textarea')?'active':''}}"> Textarea </a>
+                    <a href="{{url('admintoolkit/textarea')}}" class="sidebar-submenu-item {{request()->is('textarea')?'active':''}}"> Textarea </a>
                 </li>
                 <li>
-                    <a href="{{url('checkbox')}}" class="sidebar-submenu-item {{request()->is('checkbox')?'active':''}}"> Checkbox </a>
+                    <a href="{{url('admintoolkit/checkbox')}}" class="sidebar-submenu-item {{request()->is('checkbox')?'active':''}}"> Checkbox </a>
                 </li>
                 <li>
-                    <a href="{{url('radio')}}" class="sidebar-submenu-item {{request()->is('radio')?'active':''}}">Radio</a>
+                    <a href="{{url('admintoolkit/radio')}}" class="sidebar-submenu-item {{request()->is('radio')?'active':''}}">Radio</a>
                 </li>
                 <li>
-                    <a href="{{url('toggle')}}" class="sidebar-submenu-item {{request()->is('toggle')?'active':''}}">Toggle</a>
+                    <a href="{{url('admintoolkit/toggle')}}" class="sidebar-submenu-item {{request()->is('toggle')?'active':''}}">Toggle</a>
                 </li>
                 <li>
-                    <a href="{{url('select')}}" class="sidebar-submenu-item {{request()->is('select')?'active':''}}">Select</a>
+                    <a href="{{url('admintoolkit/select')}}" class="sidebar-submenu-item {{request()->is('select')?'active':''}}">Select</a>
                 </li>
 
                 <li>
-                    <a href="{{url('datepicker')}}" class="sidebar-submenu-item {{request()->is('datepicker')?'active':''}}"> Datepicker </a>
+                    <a href="{{url('admintoolkit/datepicker')}}" class="sidebar-submenu-item {{request()->is('datepicker')?'active':''}}"> Datepicker </a>
                 </li>
                 <li>
-                    <a href="{{url('editor')}}" class="sidebar-submenu-item {{request()->is('editor')?'active':''}}">Editor</a>
+                    <a href="{{url('admintoolkit/editor')}}" class="sidebar-submenu-item {{request()->is('editor')?'active':''}}">Editor</a>
                 </li>
                 <li>
-                    <a href="{{url('uploader')}}" class="sidebar-submenu-item {{request()->is('uploader')?'active':''}}"> Uploader </a>
+                    <a href="{{url('admintoolkit/uploader')}}" class="sidebar-submenu-item {{request()->is('uploader')?'active':''}}"> Uploader </a>
                 </li>
                 <li>
-                    <a href="{{url('layout')}}" class="sidebar-submenu-item {{request()->is('layout')?'active':''}}">Layout</a>
+                    <a href="{{url('admintoolkit/layout')}}" class="sidebar-submenu-item {{request()->is('layout')?'active':''}}">Layout</a>
                 </li>
                 <li>
-                    <a href="{{url('validation')}}" class="sidebar-submenu-item {{request()->is('validation')?'active':''}}"> Validation </a>
+                    <a href="{{url('admintoolkit/validation')}}" class="sidebar-submenu-item {{request()->is('validation')?'active':''}}"> Validation </a>
                 </li>
             </ul>
         </li>
@@ -277,16 +277,16 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('basic-table')}}" class="sidebar-submenu-item {{request()->is('basic-table')?'active':''}}"> Basic Table </a>
+                    <a href="{{url('admintoolkit/basic-table')}}" class="sidebar-submenu-item {{request()->is('basic-table')?'active':''}}"> Basic Table </a>
                 </li>
                 <li>
-                    <a href="{{url('data-table')}}" class="sidebar-submenu-item {{request()->is('data-table')?'active':''}}"> Data Table </a>
+                    <a href="{{url('admintoolkit/data-table')}}" class="sidebar-submenu-item {{request()->is('data-table')?'active':''}}"> Data Table </a>
                 </li>
             </ul>
         </li>
         <!-- Charts  -->
         <li>
-            <a href="{{url('charts')}}" class="sidebar-menu {{request()->is('charts')?'active':''}}">
+            <a href="{{url('admintoolkit/charts')}}" class="sidebar-menu {{request()->is('charts')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="pie-chart"></i>
                 </span>
@@ -295,7 +295,7 @@
         </li>
         <!-- Icons-->
         <li>
-            <a href="{{url('icons')}}" class="sidebar-menu {{request()->is('icons')?'active':''}}">
+            <a href="{{url('admintoolkit/icons')}}" class="sidebar-menu {{request()->is('icons')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="italic"></i>
                 </span>
@@ -304,7 +304,7 @@
         </li>
         <!-- Typography-->
         <li>
-            <a href="{{url('typography')}}" class="sidebar-menu {{request()->is('typography')?'active':''}}">
+            <a href="{{url('admintoolkit/typography')}}" class="sidebar-menu {{request()->is('typography')?'active':''}}">
                 <span class="sidebar-menu-icon">
                     <i data-feather="type"></i>
                 </span>
@@ -326,16 +326,16 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="{{url('login')}}" class="sidebar-submenu-item {{request()->is('login')?'active':''}}">Login</a>
+                    <a href="{{url('admintoolkit/login')}}" class="sidebar-submenu-item {{request()->is('login')?'active':''}}">Login</a>
                 </li>
                 <li>
-                    <a href="{{url('register')}}" class="sidebar-submenu-item {{request()->is('register')?'active':''}}"> Register </a>
+                    <a href="{{url('admintoolkit/register')}}" class="sidebar-submenu-item {{request()->is('register')?'active':''}}"> Register </a>
                 </li>
                 <li>
-                    <a href="{{url('forget-password')}}" class="sidebar-submenu-item" {{request()->is('forget-password')?'active':''}}> Forgot Password </a>
+                    <a href="{{url('admintoolkit/forget-password')}}" class="sidebar-submenu-item" {{request()->is('forget-password')?'active':''}}> Forgot Password </a>
                 </li>
                 <li>
-                    <a href="{{url('reset-password')}}" class="sidebar-submenu-item {{request()->is('reset-password')?'active':''}}"> Reset Password </a>
+                    <a href="{{url('admintoolkit/reset-password')}}" class="sidebar-submenu-item {{request()->is('reset-password')?'active':''}}"> Reset Password </a>
                 </li>
             </ul>
         </li>
