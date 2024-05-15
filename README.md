@@ -132,7 +132,7 @@ npm install
 ```
 
 
-Tailwind CSS initialization
+Tailwind CSS initialization with postcss
 
 ```bash
 npx tailwindcss init -p
