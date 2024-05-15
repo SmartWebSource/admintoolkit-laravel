@@ -131,6 +131,14 @@ Install all js package
 npm install
 ```
 
+
+Tailwind CSS initialization
+
+```bash
+npx tailwindcss init -p
+```
+
+
 update your `tailwind.config.js` file according to bellow code
 
 ```bash
@@ -245,11 +253,8 @@ export default {
 
 ```
 
-Install all js package and build assets
+Build assets for production
 
 ```bash
-npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
 npm run build
 ```
