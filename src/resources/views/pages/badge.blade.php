@@ -1,4 +1,4 @@
-@extends('admin::layout')
+@extends('admintoolkit::layout')
 
 @section('title','Badge')
 

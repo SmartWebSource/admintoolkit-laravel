@@ -258,7 +258,7 @@
                 <div class="dropdown-content mt-1 w-56 divide-y dark:divide-slate-600">
                     <div class="px-4 py-3">
                         <p class="text-sm">Signed in as</p>
-                        <p class="truncate text-sm font-medium">admin@example.com</p>
+                        <p class="truncate text-sm font-medium">admintoolkit@example.com</p>
                     </div>
                     <div class="py-1">
                         <a href="javascript:void(0)" class="dropdown-link">

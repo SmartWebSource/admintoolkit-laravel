@@ -8,7 +8,7 @@
     <link rel="icon" href="./images/logo-small.svg" type="image/svg+xml" />
     <title>@yield('title')</title>
     <meta name="description"
-        content="Admin Toolkit is a modern admin dashboard template based on Tailwindcss. It comes with a variety of useful ui components and pre-built pages" />
+        content="Admin Toolkit is a modern admintoolkit dashboard template based on Tailwindcss. It comes with a variety of useful ui components and pre-built pages" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,13 +33,13 @@
 <body>
     <div id="app">
         <!-- Sidebar Starts -->
-        @include('admin::partials.sidebar')
+        @include('admintoolkit::partials.sidebar')
         <!-- Sidebar Ends -->
 
         <!-- Wrapper Starts -->
         <div class="wrapper">
             <!-- Header Starts -->
-            @include('admin::partials.header')
+            @include('admintoolkit::partials.header')
             <!-- Header Ends -->
 
             <!-- Page Content Starts -->
@@ -49,7 +49,7 @@
                 <!-- Main Content Ends -->
 
                 <!-- Footer Starts -->
-                @include('admin::partials.footer')
+                @include('admintoolkit::partials.footer')
                 <!-- Footer Ends -->
             </div>
             <!-- Page Content Ends -->
